@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>🌻🌼🌷</title>
+	<link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+	<style type="text/css">
+		img{width: 100px;
+			position: absolute;}
+
+		body{
+			background: url(grass.jpeg);
+			background-size: cover;
+		}
+
+		h4{
+			color: white;
+			z-index: 100;
+			position: relative;
+			font-size: 20px;
+			top: -12px;
+			margin-bottom: 0px;
+			font-family: 'Gugi', cursive;
+			line-height: 1.6;
+		}
+	</style>
+</head>
+<body>
+
+<div id="butt">
+<h4>여러분만의<br>화단을<br>가꿔보세요:)</h4>
+<img src="f1.png" onclick="myFunction()" id="but1" style="z-index: 999;"><br><br><br><br>
+<img src="f2.png" onclick="myFunction2()" id="but2" style="z-index: 999;"><br><br><br><br>
+<img src="f3.png" onclick="myFunction3()" id="but3" style="z-index: 999;"><br><br><br><br>
+<img src="f4.png" onclick="myFunction4()" id="but4" style="z-index: 999;"><br><br><br>
+<img src="f5.png" onclick="myFunction5()" id="but5" style="z-index: 999;"><br><br><br><br>
+<img src="f6.png" onclick="myFunction6()" id="but6" style="z-index: 999;"><br><br><br><br>
+<img src="f7.png" onclick="myFunction7()" id="but7" style="z-index: 999;"><br><br><br><br>
+</div>
+
+<div>
+<img src="sand.jpg" style="z-index: 80; left: 0px; position: absolute; top: 0; width: 120px; height: 100%;">
+</div>
+
+<ul id="myList0"></ul>
+<ul id="myList1"><img src="f1.png" id="fi" style="opacity: 0;"></ul>
+<ul id="myList2"><img src="f2.png" id="fi" style="opacity: 0;"></ul>
+<ul id="myList3"><img src="f3.png" id="fi" style="opacity: 0;"></ul>
+<ul id="myList4"><img src="f4.png" id="fi" style="opacity: 0;"></ul>
+<ul id="myList5"><img src="f5.png" id="fi" style="opacity: 0;"></ul>
+<ul id="myList6"><img src="f6.png" id="fi" style="opacity: 0;"></ul>
+<ul id="myList7"><img src="f7.png" id="fi" style="opacity: 0;"></ul>
+
+<script>
+function myFunction() {
+  var itm = document.getElementById("myList1").lastChild;
+  var cln = itm.cloneNode(true);
+	cln.style.left = Math.random()*1300 + 50 + "px";
+	cln.style.top = Math.random()*600 + "px";
+	cln.style.opacity = 1;
+	var dd = Math.random()*200 + 80 + "px";
+	cln.style.width = dd;
+	cln.style.height = dd;
+  document.getElementById("myList0").appendChild(cln);
+}
+
+function myFunction2() {
+  var itm = document.getElementById("myList2").lastChild;
+  var cln = itm.cloneNode(true);
+	cln.style.left = Math.random()*1400 + "px";
+	cln.style.top = Math.random()*600 + "px";
+	cln.style.opacity = 1;
+	var dd = Math.random()*200 + 80 + "px";
+	cln.style.width = dd;
+	cln.style.height = dd;
+  document.getElementById("myList0").appendChild(cln);
+}
+
+function myFunction3() {
+  var itm = document.getElementById("myList3").lastChild;
+  var cln = itm.cloneNode(true);
+	cln.style.left = Math.random()*1400 + "px";
+	cln.style.top = Math.random()*600 + "px";
+	cln.style.opacity = 1;
+	var dd = Math.random()*200 + 80 + "px";
+	cln.style.width = dd;
+	cln.style.height = dd;
+  document.getElementById("myList0").appendChild(cln);
+}
+
+function myFunction4() {
+  var itm = document.getElementById("myList4").lastChild;
+  var cln = itm.cloneNode(true);
+	cln.style.left = Math.random()*1400 + "px";
+	cln.style.top = Math.random()*600 + "px";
+	cln.style.opacity = 1;
+	var dd = Math.random()*200 + 80 + "px";
+	cln.style.width = dd;
+	cln.style.height = dd;
+  document.getElementById("myList0").appendChild(cln);
+}
+
+function myFunction5() {
+  var itm = document.getElementById("myList5").lastChild;
+  var cln = itm.cloneNode(true);
+	cln.style.left = Math.random()*1400 + "px";
+	cln.style.top = Math.random()*600 + "px";
+	cln.style.opacity = 1;
+	var dd = Math.random()*200 + 80 + "px";
+	cln.style.width = dd;
+	cln.style.height = dd;
+  document.getElementById("myList0").appendChild(cln);
+}
+
+function myFunction6() {
+  var itm = document.getElementById("myList6").lastChild;
+  var cln = itm.cloneNode(true);
+	cln.style.left = Math.random()*1400 + "px";
+	cln.style.top = Math.random()*600 + "px";
+	cln.style.opacity = 1;
+	var dd = Math.random()*200 + 80 + "px";
+	cln.style.width = dd;
+	cln.style.height = dd;
+  document.getElementById("myList0").appendChild(cln);
+}
+
+function myFunction7() {
+  var itm = document.getElementById("myList7").lastChild;
+  var cln = itm.cloneNode(true);
+	cln.style.left = Math.random()*1400 + "px";
+	cln.style.top = Math.random()*600 + "px";
+	cln.style.opacity = 1;
+	var dd = Math.random()*200 + 80 + "px";
+	cln.style.width = dd;
+	cln.style.height = dd;
+  document.getElementById("myList0").appendChild(cln);
+}
+
+</script>
+
+</body>
+</html>
